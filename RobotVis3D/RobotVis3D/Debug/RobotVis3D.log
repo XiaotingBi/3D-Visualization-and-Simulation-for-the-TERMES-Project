@@ -1,0 +1,62 @@
+﻿生成启动时间为 2014/11/24 21:50:41。
+     1>项目“F:\WorkSpace\Visual Studio 2010\Projects\RobotVis3D\RobotVis3D\RobotVis3D.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\RobotVis3D.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Program Files (x86)\Microsoft Visual Studio 10.0\boost_1_56_0\boost_1_56_0\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\RobotVis3D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Program Files (x86)\Microsoft Visual Studio 10.0\boost_1_56_0\boost_1_56_0\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\RobotVis3D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GetData.cpp Visualization.cpp
+         Visualization.cpp
+     1>f:\workspace\visual studio 2010\projects\robotvis3d\robotvis3d\visualization.cpp(62): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workspace\visual studio 2010\projects\robotvis3d\robotvis3d\visualization.cpp(360): warning C4018: “<=”: 有符号/无符号不匹配
+     1>f:\workspace\visual studio 2010\projects\robotvis3d\robotvis3d\visualization.cpp(452): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workspace\visual studio 2010\projects\robotvis3d\robotvis3d\visualization.cpp(474): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workspace\visual studio 2010\projects\robotvis3d\robotvis3d\visualization.cpp(564): warning C4018: “<”: 有符号/无符号不匹配
+         GetData.cpp
+     1>d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : 参见“std::_Copy_impl”的声明
+                 d:\program files (x86)\microsoft visual studio 10.0\boost_1_56_0\boost_1_56_0\boost\algorithm\string\detail\classification.hpp(102): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const char*,char*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=char *,
+                     _InIt=const char *
+                 ]
+                 d:\program files (x86)\microsoft visual studio 10.0\boost_1_56_0\boost_1_56_0\boost\algorithm\string\classification.hpp(206): 参见对正在编译的函数 模板 实例化“boost::algorithm::detail::is_any_ofF<CharT>::is_any_ofF<boost::iterator_range<IteratorT>>(const RangeT &)”的引用
+                 with
+                 [
+                     CharT=char,
+                     IteratorT=const char *,
+                     RangeT=boost::iterator_range<const char *>
+                 ]
+                 f:\workspace\visual studio 2010\projects\robotvis3d\robotvis3d\getdata.cpp(40): 参见对正在编译的函数 模板 实例化“boost::algorithm::detail::is_any_ofF<CharT> boost::algorithm::is_any_of<const char[2]>(RangeT (&))”的引用
+                 with
+                 [
+                     CharT=char,
+                     RangeT=const char [2]
+                 ]
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\RobotVis3D.exe.embed.manifest.res" Debug\RobotVis3D_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\WorkSpace\Visual Studio 2010\Projects\RobotVis3D\Debug\RobotVis3D.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program Files (x86)\Microsoft Visual Studio 10.0\boost_1_56_0\boost_1_56_0\libs" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RobotVis3D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\WorkSpace\Visual Studio 2010\Projects\RobotVis3D\Debug\RobotVis3D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\WorkSpace\Visual Studio 2010\Projects\RobotVis3D\Debug\RobotVis3D.lib" /MACHINE:X86 Debug\RobotVis3D.exe.embed.manifest.res
+         Debug\GetData.obj
+         Debug\stdafx.obj
+         Debug\Visualization.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\RobotVis3D.exe.embed.manifest" /manifest Debug\RobotVis3D.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\RobotVis3D.exe.embed.manifest.res" Debug\RobotVis3D_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\WorkSpace\Visual Studio 2010\Projects\RobotVis3D\Debug\RobotVis3D.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program Files (x86)\Microsoft Visual Studio 10.0\boost_1_56_0\boost_1_56_0\libs" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RobotVis3D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\WorkSpace\Visual Studio 2010\Projects\RobotVis3D\Debug\RobotVis3D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\WorkSpace\Visual Studio 2010\Projects\RobotVis3D\Debug\RobotVis3D.lib" /MACHINE:X86 Debug\RobotVis3D.exe.embed.manifest.res
+         Debug\GetData.obj
+         Debug\stdafx.obj
+         Debug\Visualization.obj
+         RobotVis3D.vcxproj -> F:\WorkSpace\Visual Studio 2010\Projects\RobotVis3D\Debug\RobotVis3D.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\RobotVis3D.unsuccessfulbuild”。
+         正在对“Debug\RobotVis3D.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\WorkSpace\Visual Studio 2010\Projects\RobotVis3D\RobotVis3D\RobotVis3D.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.19
